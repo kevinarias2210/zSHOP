@@ -95,6 +95,12 @@ article.single-post .wrap-post, .comments-are{
 }
 
 
+.flex-box{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
 footer{
     grid-column: 2;
 }
