@@ -73,13 +73,44 @@
 }
 
 
-
 .content-box.box-3 .box-text{
     width: 50%;
-    height: 58vh;
+    height: 48vh;
+    padding: 30px 40px;
+}
+
+
+article{
+    padding: 20px;
+}
+
+
+article.single-post .wrap-post, .comments-are{
+    display: contents;
+}
+
+
+.entry-header{
+    padding: 20px;
 }
 
 
 footer{
     grid-column: 2;
+}
+
+
+.row-footer{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.row__contenedor1{
+    width: 45%;
+}
+
+
+.wrap-col{
+    width: 90%;
 }
