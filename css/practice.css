@@ -101,22 +101,59 @@ article.single-post .wrap-post, .comments-are{
 }
 
 
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+
 footer{
     grid-column: 2;
 }
 
 
 .row-footer{
-    display: flex;
-    align-items: flex-start;
-}
-
-
-.row__contenedor1{
-    width: 45%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 
 .wrap-col{
+    width: 100%;
+    margin-left: 20px;
+}
+
+
+.wrap-contenedor{
+    margin-left: 15px;
+}
+
+
+ul{
+    padding: 0;
+}
+
+
+p{
     width: 90%;
+}
+
+.grid{
+    display: grid;
+}
+
+
+.grid-col-3{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.gap-space{
+    gap: 20px;
+}
+
+
+.contact-form{
+    padding-top: 15px;
 }
